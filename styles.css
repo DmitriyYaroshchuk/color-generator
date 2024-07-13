@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Robot', sans-serif;
+    height: 100vh;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+.col h3 {
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color ease-in 0.3s 0s;
+}
+
+.col h3:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.col button {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    font-size: 1.5rem;
+    color: #fff;
+    transition: background-color ease-in 0.3s 0s;
+    outline: none;
+}
+
+.col button:hover {
+    background-color: rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
